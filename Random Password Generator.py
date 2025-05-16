@@ -1,5 +1,8 @@
+#importing the needed packages
 import random
 import string
+
+#Taking input for length from the user
 length=int(input("How much would be the length of the Password: "))
 def generate_password(length):
     characters = string.ascii_letters + string.digits + string.punctuation
